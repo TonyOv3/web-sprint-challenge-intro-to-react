@@ -30,6 +30,8 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a javascript library that is used for building UIs. React's Virtual DOM interacts with the DOM and renders elements and state to the actual DOM. A good example of this is the reconciliation process. React updates the virtual DOM once it detects that nodes have changed via state changes. Once it confirms the changed nodes it will update the DOM accordingly. Reacts power lies in how it offloads pressure from the browsers.
+
 1. Describe component state.
 
 1. Describe props.

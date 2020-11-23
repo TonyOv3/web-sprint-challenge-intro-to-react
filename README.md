@@ -30,13 +30,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-React is a javascript library that is used for building UIs. React's Virtual DOM interacts with the DOM and renders elements and state to the actual DOM. A good example of this is the reconciliation process. React updates the virtual DOM once it detects that nodes have changed via state changes. Once it confirms the changed nodes it will update the DOM accordingly. Reacts power lies in how it offloads pressure from the browsers.
+React is a javascript library that is used for building UIs. Sites like Facebook, Twiter and ESPN have users that are clicking all over the page and react keeps track and allows everything to flow together smoothly. React's Virtual DOM interacts with the DOM and renders elements and state to the actual DOM. A good example of this is the reconciliation process. React updates the virtual DOM once it detects that nodes have changed via state changes. Once it confirms the changed nodes it will update the DOM accordingly. Reacts power lies in how it offloads pressure from the browsers.
 
 1. Describe component state.
 
+An object that determines how that component renders and behaves. Allows you to create both dymanmic and interactive compnents.
+
 1. Describe props.
 
+Props are values that are passed into components to be diplayed or used to decide something in side the component.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side Effect is anything that affects something outside of the scope of the function being executed. Fetching data from an API, logging and manually manipulating the DOM are examples of side effects.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
